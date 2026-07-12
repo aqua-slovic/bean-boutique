@@ -324,9 +324,15 @@ img {
 }
 
 @media (max-width: 860px) {
-  .hero-grid,
-  .cart-layout,
-  .product-grid,
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .cart-layout {
+    grid-template-columns: 1fr;
+  }
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
   .card-grid {
     grid-template-columns: 1fr;
   }

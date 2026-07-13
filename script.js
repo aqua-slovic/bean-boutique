@@ -1,5 +1,5 @@
 const storageKey = 'bean-boutique-cart';
-
+// Utility functions for cart management//
 function getCart() {
   const stored = localStorage.getItem(storageKey);
   return stored ? JSON.parse(stored) : [];
@@ -109,7 +109,7 @@ function initSwiper() {
     });
   }
 }
-
+// The mobile menu toggle//
 function initNav() {
   const toggle = document.querySelector('.mobile-nav-toggle');
   const nav = document.querySelector('.nav-links');

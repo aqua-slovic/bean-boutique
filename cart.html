@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart | Bean Boutique</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-badge"><i class="fa-solid fa-mug-hot"></i></span>
+        <span>Bean Boutique</span>
+      </a>
+      <button class="mobile-nav-toggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="brewing-equipment.html">Brewing Equipment</a>
+        <a class="active" href="cart.html">Cart <span class="cart-count">0</span></a>
+        <a href="events.html">Events &amp; Workshops</a>
+        <a href="offers.html">Special Offers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <div class="container">
+        <h1>Your cart</h1>
+        <p>Ready to bring your next coffee ritual home?</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cart-layout">
+        <div id="cart-items" class="cart-list"></div>
+        <aside class="summary-box">
+          <h3>Order summary</h3>
+          <p>Subtotal: <strong id="subtotal">MWK 0</strong></p>
+          <p>Total: <strong id="total">MWK 0</strong></p>
+          <a class="btn btn-primary" href="events.html">Reserve a workshop</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Bean Boutique</h3>
+        <p>Simple, beautiful coffee shopping.</p>
+      </div>
+      <div>
+        <div>
+          <p><i class="fa-solid fa-phone"></i> <a href="tel:+265992393452">+265992393452</a></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:aquaslovic@gmail.com">aquaslovic@gmail.com</a></p>
+        </div>
+        <div>
+          <p><i class="fa-solid fa-phone"></i> <a href="tel:+265992393452">+265992393452</a></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:aquaslovic@gmail.com">aquaslovic@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
